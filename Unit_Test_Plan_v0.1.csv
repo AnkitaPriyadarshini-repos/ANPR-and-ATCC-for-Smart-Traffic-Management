@@ -1,0 +1,6 @@
+Sl.No,Test Case Name,Test Procedure,Condition to be tested,Expected Result,Actual Result
+1,YOLO Model Load Test,Load YOLOv8 model using Python,Model file path is valid,Model loads successfully,As Expected
+2,Plate Detection Test,Run model on a sample image with a clearly visible plate,Plate present in frame,Bounding box drawn around plate and confidence > 0.5,As Expected
+3,Low-Light Plate Detection,Run model on dim/low-light image with plate,Low-light conditions,Model detects plate after preprocessing,As Expected
+4,OCR Text Extraction,Run OCR on a clear cropped plate ROI,Plate text fully visible and horizontal,Correct alphanumeric text extracted with confidence,As Expected
+5,Dashboard / Logging Update,Process image(s) with detected plate(s) and check logging,Detections occur and logging enabled,Detected plate entries appended to log/dashboard counts,As Expected

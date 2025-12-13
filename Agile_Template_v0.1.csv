@@ -1,0 +1,18 @@
+Priority Sprint,Actual Sprint,US ID,User Story Description,MOSCOW,Dependency,Assignee,Status
+S1,S1,US-001,Collect ANPR & ATCC dataset from Kaggle; validate images & videos,MUST HAVE,Kaggle Account,Veligatla Nanda V,Completed
+S1,S1,US-002,Perform initial preprocessing: resizing; denoising; normalization,MUST HAVE,OpenCV,Veligatla Nanda V,Completed
+S1,S1,US-003,Conduct EDA on traffic patterns; number plate structure; vehicle classes,SHOULD HAVE,Python Libraries,Veligatla Nanda V,Completed
+S1,S1,US-004,Set up YOLO + OCR environment; verify GPU compatibility,MUST HAVE,CUDA / Kaggle GPU,Veligatla Nanda V,Completed
+S2,S2,US-001,Outlier removal & scaling for numeric features used in analytics pipelines,MUST HAVE,—,Veligatla Nanda V,Completed
+S2,S2,US-002,Data encoding and plate-level metadata preparation (categorical handling),MUST HAVE,—,Veligatla Nanda V,Completed
+S2,S2,US-003,Train detection & classification models (YOLOv8) and evaluate,MUST HAVE,YOLOv8,Veligatla Nanda V,Completed
+S2,S2,US-004,Identify best-performing model(s) using evaluation metrics (mAP; F1),MUST HAVE,Scikit-Learn,Veligatla Nanda V,Completed
+S2,S2,US-005,Hyperparameter tuning and retraining on best model,MUST HAVE,—,Veligatla Nanda V,Completed
+S3,S3,US-001,Prepare infrastructure for inference/deployment,MUST HAVE,—,Veligatla Nanda V,Completed
+S3,S3,US-002,Create prototype Streamlit webpage to display detections; plates; counts,MUST HAVE,Streamlit,Veligatla Nanda V,Completed
+S3,S3,US-003,Develop interface for Streamlit or hosting,MUST HAVE,Flask; PythonAnywhere,Veligatla Nanda V,Completed
+S3,S3,US-004,Integrate OCR output into UI (show recognized plate text with confidence),MUST HAVE,OCR Library,Veligatla Nanda V,Completed
+S4,S4,US-001,Develop conversational/alert feature (optional) or integrate basic alerts,MUST HAVE,GrogAI/Streamlit,Veligatla Nanda V,Completed
+S4,S4,US-002,Integrate ANPR & ATCC modules into single Streamlit app and test end-to-end,COULD HAVE,Streamlit,Veligatla Nanda V,Completed
+S4,S4,US-003,Final integration; performance tuning; and inference-time optimizations,MUST HAVE,—,Veligatla Nanda V,Completed
+S4,S4,US-004,Prepare final documentation; demo script; and project PPT for submission by Dec 8,MUST HAVE,Docs; PPT,Veligatla Nanda V,Completed

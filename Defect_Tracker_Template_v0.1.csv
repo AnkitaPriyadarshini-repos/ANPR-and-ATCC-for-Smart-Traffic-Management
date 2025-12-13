@@ -1,0 +1,10 @@
+Sl.No,Submitted By,Submitted Date,Description,Detected Sprint,Assigned To,Type of Defect,Action Taken,Action Taken Date,Status,Remarks
+1,Veligatla Nanda V,2025-11-05,YOLO model failing to detect plates in low-light videos,S1,Veligatla Nanda V,Model Accuracy,Improved preprocessing + brightness normalization,2025-11-07,Closed,Resolved with preprocessing
+2,Veligatla Nanda V,2025-11-06,OCR misreads similar characters (0/O; 5/S),S1,Veligatla Nanda V,OCR Error,Applied character-level post-processing rules,2025-11-08,Closed,Accuracy improved
+3,Veligatla Nanda V,2025-11-07,ATCC classifier misclassifies trucks as buses,S2,Veligatla Nanda V,Classification Error,Added more training samples for trucks,2025-11-09,Closed,Balanced dataset
+4,Veligatla Nanda V,2025-11-08,Streamlit UI slow when loading video frames,S2,Veligatla Nanda V,Performance,Optimized frame loading and caching,2025-11-10,Closed,Working smoothly
+5,Veligatla Nanda V,2025-11-09,OCR returns blank output for angled plates,S3,Veligatla Nanda V,OCR Error,Added perspective correction,2025-11-11,Closed,Improved OCR
+6,Veligatla Nanda V,2025-11-10,Dashboard not updating vehicle counts in real-time,S4,Veligatla Nanda V,UI Bug,Fixed state refresh method,2025-11-12,Closed,Now updating
+7,Veligatla Nanda V,2025-11-11,Inference model produces delayed response (>2 sec),S4,Veligatla Nanda V,Performance,Optimized inference pipeline,2025-11-13,Closed,Latency reduced
+8,Veligatla Nanda V,2025-11-12,Some plate numbers not logged in CSV,S4,Veligatla Nanda V,Logging Issue,Corrected file write operation,2025-11-14,Closed,Logging consistent
+9,Veligatla Nanda V,2025-11-13,Final UI deployment failing on PythonAnywhere,S4,Veligatla Nanda V,Deployment Issue,Adjusted WSGI + runtime settings,2025-11-15,Closed,Deployment successful
